@@ -1,0 +1,10 @@
+#local packages
+-e .
+
+# dependencies
+tqdm
+numpy
+pandas
+pyYAML
+mlflow
+joblib
