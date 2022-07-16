@@ -130,3 +130,9 @@ dmypy.json
 
 #ignore data directory 
 data/
+
+#ignore binary files
+*.bin
+
+#ignore mlruns
+mlruns/
