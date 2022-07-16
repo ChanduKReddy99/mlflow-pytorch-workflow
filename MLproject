@@ -1,0 +1,17 @@
+name: mlflow-pytorch-multistep-workflow
+
+conda_env: conda.yaml
+
+entry_points:
+  main: 
+    command: 'python src/main.py'
+
+  stage01_get_data:
+    parameters:
+      config: {type: string, default: 'configs/config.yaml'}
+    command: 'python src/stage01_get_data.py --config {config}'
+
+  stage02_train_model:
+    parameters:
+      config: {type: string, default: 'configs/config.yaml'}
+    command: 'python src/stage02_model_train.py --config {config}'
