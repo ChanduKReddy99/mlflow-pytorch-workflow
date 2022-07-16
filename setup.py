@@ -3,7 +3,7 @@ from setuptools import setup
 with open("README.md", "r", encoding= 'utf-8') as fh:
     long_description = fh.read()
 
-REPO_NAME = 'mlflow pytorch model pipeline'
+REPO_NAME = 'mlflow pytorch multistep workflow pipeline'
 AUTHOR_USE_NAME = "ChanduKReddy99"
 AUTHOR_EMAIL = "chanduk.amical@gmail.com"
 URL= "https://github.com/ChanduKReddy99/mlflow-pytorch-workflow"
